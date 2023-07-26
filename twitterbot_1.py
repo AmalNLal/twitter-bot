@@ -36,6 +36,6 @@ class TwitterBot:
           time.sleep(10)
         except Exception as ex:
           time.sleep(60)
-sel=TwitterBot('8700382870','iwantjustice')
+sel=TwitterBot('email','password')
 sel.login()
 sel.like_tweet('Bitcoin')
